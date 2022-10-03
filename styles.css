@@ -1,8 +1,6 @@
 * {
-    
     box-sizing: border-box;
     /* border: 1px solid red; */
-    
   }
 
 body {
@@ -10,18 +8,13 @@ body {
     flex-direction: row;
     margin: 0;
     padding: 0;
-    
 }
 
 img {
-    max-width: 30%;
+    max-width: 25%;
     height: 938px;
-    margin-left: 260px;
-    margin-bottom: 0px;
-    
+    margin-left: 300px;
 }
-
-
 
 .right-header {
     display: flex;
@@ -30,7 +23,7 @@ img {
     border-radius: 3px;
     background-color: #F6F7F8;
     border: none;
-    width: 800px;
+    width: 825px;
     height: 100%;
     margin-right: auto;
 }
@@ -47,15 +40,11 @@ img {
     margin-left: 50px;
 }
  
-
-
-/* .submit-form {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #eeeeee;
-    width: 800px;
-    height: 270px;
-    margin-left: 730px;
+.submit-form {
+    margin-top: 40px;
+    border: 1px solid black;
+    height: 290px;
+    background-color: white;
 }
 
 .form-row input[type='text'],
@@ -64,11 +53,28 @@ img {
 .form-row input[type='password'] {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
-    border-radius: 3px;
-    width: 20%;
+    border-radius: 6px;
+    width: 250px;
     padding: 7px;
     font-size: 14px;
   }
-   */
 
-  
+
+.form-row {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 45px;  
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+.dothis {
+    margin-left: 45px;
+}
+
+.footer {
+    height: 260px;
+}
