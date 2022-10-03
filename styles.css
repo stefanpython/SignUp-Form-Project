@@ -12,7 +12,7 @@ body {
     /* background-image: url("https://rare-gallery.com/uploads/posts/500944-simple-background.jpg"); */
 }
 
-img {
+#leftImage {
     max-width: 40%;
     height: 938px;
     
@@ -104,4 +104,40 @@ button {
 
 h5 {
     font-size: 20px;
+}
+
+#odin {
+    width: 120px;
+    height: auto;
+    
+}
+
+.odin-logo {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    margin-top: 200px;
+    background-color: #00000038;
+    width: 33.8%;
+    margin-left: 0px;
+    margin-right: -110px;
+}
+
+@media only screen and (max-width: 1450px) {
+    body, .footer {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 1669px) {
+    .odin-logo {
+        display: flex;
+        justify-content: center;
+        position:absolute;
+        margin-top: 200px;
+        background-color: #00000038;
+        width: 39.9%;
+        margin-left: 0px;
+        margin-right: -110px;
+        }
 }
