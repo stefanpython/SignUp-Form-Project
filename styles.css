@@ -107,7 +107,7 @@ h5 {
 }
 
 #odin {
-    width: 120px;
+    width: 100px;
     height: auto;
     
 }
@@ -131,13 +131,33 @@ h5 {
 
 @media only screen and (max-width: 1669px) {
     .odin-logo {
-        display: flex;
-        justify-content: center;
-        position:absolute;
-        margin-top: 200px;
-        background-color: #00000038;
-        width: 39.9%;
-        margin-left: 0px;
-        margin-right: -110px;
+        
+        width: 39.3%;
+        
         }
+}
+
+@media only screen and (min-width: 1980px) {
+    .odin-logo {
+        width: 37.7%;
+        }
+    #leftImage {
+        height: 995.5px;
+    }
+}
+
+
+@font-face {
+    font-family: norseBold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0px;
 }
