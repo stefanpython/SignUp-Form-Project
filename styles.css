@@ -74,6 +74,7 @@ label,input{
     display:flex;
     flex-direction:column;
     width: 370px;
+    font-family: sans-serif;
   }
 
 .dothis {
@@ -132,7 +133,7 @@ h5 {
 @media only screen and (max-width: 1669px) {
     .odin-logo {
         
-        width: 39.3%;
+        width: 39.5%;
         
         }
 }
@@ -166,4 +167,15 @@ h5 {
     outline: none;
     border:1px solid blue;
     box-shadow: 0 1px 7px -2px rgb(128, 128, 128);
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
+
+footer {
+    color: white;
+    margin-left: -400px;
+    margin-top: 270px;
 }
